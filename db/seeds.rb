@@ -5,3 +5,4 @@
 #   
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
+Point.create(:name => 'White House', :address => '1600 Pennsylvania Avenue, Washington, DC', :state => "DC", :attribution => "Creative Commons Attribution 3.0 License.", :phone => "202-456-1414")
