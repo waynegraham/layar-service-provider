@@ -2,8 +2,9 @@ require 'digest/sha1'
 
 module GeoHelper
   def validate_hash(timestamp, developerHash)
-    developerHashCorrect = Digest::SHA1.hexdigest(Layar::Config::DEVELOPER_KEY + timestamp)
-    return developerHash == developerHashCorrect
+    return true
+    # developerHashCorrect = Digest::SHA1.hexdigest(Layar::Config::DEVELOPER_KEY + timestamp)
+    #     return developerHash == developerHashCorrect
   end
 
   def point_to_poi(point, ref_point)
