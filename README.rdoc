@@ -28,7 +28,7 @@ Now you can just use the template when creating your tables with the inclusion o
     adapter: postgresql
     encoding: unicode
     database: layar_development
-    \*template: template_postgis*
+    <b>template: template_postgis<\b>
     pool: 5
     username: postgres
     password:
