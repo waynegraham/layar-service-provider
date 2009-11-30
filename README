@@ -1,4 +1,0 @@
-== Layar Service Provider
-
-This is the forked Layar Service provider implementation. The big difference is that this implementation relies heavily on PostGIS and associated functionality to enable searches from within the PostGIS geometry data types instead of relying on only latitude & longitude points.
-
