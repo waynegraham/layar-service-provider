@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  rel: false
+  angle: 1.5
+  scale: 1.5
+
+two:
+  rel: false
+  angle: 1.5
+  scale: 1.5
