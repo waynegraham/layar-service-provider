@@ -24,6 +24,8 @@ gem 'capistrano'
 # gem 'aws-s3', :require => 'aws/s3'
 
 gem 'geokit-rails3'
+gem 'devise'
+gem 'cancan'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
