@@ -1,4 +1,10 @@
 LayarServiceProvider3::Application.routes.draw do
+  get "pages/index"
+
+  get "pages/about"
+
+  devise_for :users
+
   get "geo/index"
 
   # The priority is based upon order of creation:
