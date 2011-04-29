@@ -17,7 +17,13 @@
   <div id="container" class="container_12">
     <header>
       <div class="nav grid_12">
-        log in
+        <% if current_user %>
+          Welcome <%= current_user.email %>
+          <%= link_to "Log out", log_out_path %>
+        <% else %>
+          <%#= link_to "Sign up", sign_up %> or
+          <%#= link_to "log in", log_in_path %>
+        <% end %>
       </div>
       <div class="clear"></div>
       <div id="logo" class="grid_12">
